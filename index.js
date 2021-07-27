@@ -1,4 +1,5 @@
-//0727 
+//0727 22
+
 
 // console.log("helloWorld")
 //var 를 쓰면 안되는 이유 (절떄)
