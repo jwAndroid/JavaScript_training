@@ -1,5 +1,4 @@
-//0727 22
-
+// 07 27 start 
 
 // console.log("helloWorld")
 //var 를 쓰면 안되는 이유 (절떄)
@@ -87,3 +86,8 @@
 // console.log(d >= e) 
 // console.log(c <= e) 
 //구분할때 변수를 앞에두기
+
+// 07 28 _ 06 start 
+
+
+
