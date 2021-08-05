@@ -28,3 +28,5 @@ const average = numbers.reduce((sum, number, index, array) => {
 }, 0);
 
 console.log(average);
+
+console.log('=====================================');

@@ -30,3 +30,14 @@ const result3 = array.map((number, index, array) => {
   return number * number;
 });
 console.log(result3);
+
+console.log('=====================================');
+// original
+const arr0 = [1, 2, 3, 4, 5];
+const mapExam = arr0.map((result, index) => {
+  if (index === 1) {
+    return console.log(result);
+  }
+  return result;
+});
+console.log(mapExam);
