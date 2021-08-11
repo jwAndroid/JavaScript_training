@@ -40,6 +40,14 @@ const users = [
   },
 ];
 
+const newUsers = { id: 13, name: '거북이', age: 3, group: 'A반' };
+const updatedUsers = [...users, newUsers];
+console.log(updatedUsers);
+
+const xczxc = updatedUsers.map(({ id, name }) => id + name);
+
+console.log(xczxc);
+
 const res = users.find((it) => {
   return it.group === 'B반';
 });
