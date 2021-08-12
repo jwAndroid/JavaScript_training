@@ -8,7 +8,7 @@ console.log('========================');
 
 const numbers = [1, 2, 3, 4, 5];
 const updatedNumbers = [...numbers, 1000, ...numbers];
-console.log(numbers);
+console.log(...numbers);
 console.log(updatedNumbers);
 
 const messages = [
@@ -19,7 +19,6 @@ const messages = [
   { id: 5, userId: 1, message: 'asdsadfa123sdf' },
 ];
 //이런 객체배열이 있을때
-
 const newMessage = { id: 6, userId: 2, message: '123j123kjksdf' };
 // 새로운 객체가 들어온다?
 
