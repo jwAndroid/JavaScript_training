@@ -1,18 +1,18 @@
 //많이 중요 var를 쓰면 안되는이유. 혹시모르니까 구글링
 
-const a = 1;
-if (a + 1 === 2) {
-  console.log('a + 1 은 2와 같다. ');
-}
+// const a = 1;
+// if (a + 1 === 2) {
+//   console.log("a + 1 은 2와 같다. ");
+// }
 
-// node 루트/ 파일명 === 실행
+// // node 루트/ 파일명 === 실행
 
 // const b = 1;
 // if (true) {
 //   const b = 2;
-//   console.log('if 안의 값은 ' + b);
+//   console.log("if 안의 값은 " + b);
 // }
-// console.log('if 밖의 값은 ' + b);
+// console.log("if 밖의 값은 " + b);
 
 // 컨스트랑 렛은 블록범위(스코프) 이겠지?
 //b가 범위를 못넘어감
@@ -43,11 +43,11 @@ if (a + 1 === 2) {
 
 // const c = 10;
 // if (c > 15) {
-//   console.log('c가 15보다 크다.');
+//   console.log("c가 15보다 크다." + c);
 // } else if (c === 10) {
-//   console.log('c는 10이다.');
+//   console.log("c는 10이다." + c);
 // } else {
-//   console.log('c가 15보다 작다.');
+//   console.log("c가 15보다 작다.");
 // }
 
 // const device = 'android';

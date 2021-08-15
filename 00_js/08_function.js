@@ -1,8 +1,8 @@
-// function hello(name) {
-//   console.log(`hello ${name}`);
-//   //자바스크립트에서는 "" 말고 ` 를 써라 ~표임. 백틱
-// }
-// hello('지웅');
+function hello(name) {
+  console.log(`hello ${name}`);
+  //자바스크립트에서는 "" 말고 ` 를 써라 ~표임. 백틱
+}
+hello("지웅");
 
 // function add(a, b) {
 //   return a + b;
