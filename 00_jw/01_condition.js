@@ -13,12 +13,12 @@ if (true) {
 }
 console.log("const if 밖의값 " + x);
 
-var y = 1;
-if (true) {
-  y = 5;
-  console.log("var if 안의값" + y);
-}
-console.log("var if 밖의값" + y);
+// var y = 1;
+// if (true) {
+//   y = 5;
+//   console.log("var if 안의값" + y);
+// }
+// console.log("var if 밖의값" + y);
 
 let c = 1;
 if (true) {
