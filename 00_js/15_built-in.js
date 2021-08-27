@@ -22,7 +22,7 @@ array.forEach((number) => {
 });
 console.log(result2);
 
-/*map 은 정말 중요함. 포 이치 , 포문 다 버리고 이것만 생각 */
+/* !!!!!!!!map 은 정말 중요함. 포 이치 , 포문 다 버리고 이것만 생각!!!!!!!!*/
 console.log('=====================================');
 const result3 = array.map((number, index, array) => {
   console.log(index);
