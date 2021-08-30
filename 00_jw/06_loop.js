@@ -1,7 +1,7 @@
 const cat = {
-  name: "야옹이",
+  name: '야옹이',
   age: 145,
-  sound: "야옹",
+  sound: '야옹',
 };
 
 // console.log(Object.entries(cat));
@@ -9,9 +9,13 @@ const cat = {
 // console.log(Object.values(cat));
 
 const catObjectsKey = Object.keys(cat);
+// "cat" 오브젝트 키만 추출.
+// console.log(`key : ${catObjectsKey}`);
 
 const keyFilter = catObjectsKey.filter((key) => {
-  if (key === "age") return key;
+  if (key === 'age') return key;
 });
 
-console.log(keyFilter);
+const valueFilter = cat.age;
+
+console.log(valueFilter);
