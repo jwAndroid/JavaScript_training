@@ -10,12 +10,12 @@ const cat = {
 
 const catObjectsKey = Object.keys(cat);
 // "cat" 오브젝트 키만 추출.
-// console.log(`key : ${catObjectsKey}`);
+console.log({ catObjectsKey });
+const plusKey = 'key';
 
 const keyFilter = catObjectsKey.filter((key) => {
-  if (key === 'age') return key;
+  if (key === 'age') {
+    catObjectsKey.push(plusKey);
+    console.log({ catObjectsKey });
+  }
 });
-
-const valueFilter = cat.age;
-
-console.log(valueFilter);

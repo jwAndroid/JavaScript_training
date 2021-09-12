@@ -8,6 +8,7 @@ const resultMap = (arrays) => {
       zeroArr.push(array * array);
     }
   });
+  // map 을 이렇게 쓰면안됨.
 
   return console.log(zeroArr);
 };

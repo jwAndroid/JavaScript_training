@@ -7,6 +7,8 @@ const biggerThanThree = (arrays) => {
   }, 0);
   return console.log(addValue);
 };
+// map은 이렇게 쓰면안된다.
+// map 이라는게 map 뒤에서 연산을해서 const result 에 값을 받아와야지
 
 const biggerThanThree2 = (arrays) => {
   const result = arrays.reduce((sum, arr) => sum + arr, 0);
