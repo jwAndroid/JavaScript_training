@@ -23,6 +23,7 @@ for (let number of numbers) {
   console.log(number);
 }
 console.log('==================================');
+
 const cat = {
   name: '고양이',
   sound: '야옹',

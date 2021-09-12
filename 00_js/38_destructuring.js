@@ -13,6 +13,7 @@ const {
   },
   value,
 } = deepObject;
+
 const newObject = { name, value };
 
 //이것도 상당히 중요함.
