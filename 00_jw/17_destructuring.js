@@ -29,6 +29,7 @@
 
 // // const { name: nickname } = animal;
 // // console.log(nickname);
+// animal 객체의 name 을 nickname 으로 해주겠다. 이유는 위에 "js" name 이 또 있으니까
 
 // const anmimalPirint = ({ name: nickname }) => {
 //   console.log(nickname);
@@ -49,7 +50,7 @@
 const deepObject = {
   state: {
     information: {
-      name: "js",
+      name: 'js',
     },
   },
   value: 5,

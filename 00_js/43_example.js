@@ -1,5 +1,5 @@
 const sum = (...rest) => {
-  console.log(rest);
+  console.log(`rest: ${rest}`);
   console.log(...rest);
   return rest.reduce((sum, number) => sum + number, 0);
 };

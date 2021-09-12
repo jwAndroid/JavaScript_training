@@ -9,7 +9,7 @@ const { color, ...cuteSilme } = purpleCuteSlime;
 console.log(color);
 console.log(cuteSilme);
 
-console.log('==================================');
+console.log('==============================');
 
 const { attribute, ...slime } = cuteSilme;
 

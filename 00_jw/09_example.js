@@ -14,6 +14,7 @@
 // };
 
 // resultMapJw([1, 2, 3, 4, 5, 6, 7, 8]);
+// 절떄 이렇게 맵 쓰면 안됨. let도 문제가 됨
 
 const resultMapJw2 = (arrays) => {
   return arrays.map((array, index) => {

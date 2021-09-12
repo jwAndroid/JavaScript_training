@@ -1,20 +1,32 @@
 const messages = [
-  { id: 1, userId: 1, message: "안녕하세요" },
-  { id: 2, userId: 2, message: "네 하이요" },
-  { id: 3, userId: 1, message: "asdsadfa123sdf" },
-  { id: 4, userId: 2, message: "asdsadfa123sdf" },
-  { id: 5, userId: 1, message: "asdsadfa123sdf" },
+  { id: 1, userId: 1, message: '안녕하세요' },
+  { id: 2, userId: 2, message: '네 하이요' },
+  { id: 3, userId: 1, message: '어디 여행가시나요?' },
+  { id: 4, userId: 2, message: '제주도 갑니다!' },
+  { id: 5, userId: 1, message: '같이 가실까요??' },
 ];
 
-const newMessage = { id: 7, userId: 2, message: "안녕하세요!! 답장함." };
-const newMessages = [newMessage, ...messages];
+// 유저가 입력을 해서 새로운 메세지가 들어와야하는 상황.
+const newMessages = [
+  ...messages,
+  { id: 6, userId: 2, message: '네 같이 가시죠!' },
+];
+console.log(newMessages);
+
+// const newMessages = [newMessage, ...messages];
 // console.log(newMessages);
 
-console.log("===============================");
+console.log('===============================');
 
 const getMessage = (messageArrays) => {
-  messageArrays.filter(({ id }) => id !== 4);
+  messageArrays.filter(({ id }) => {
+    if (id === 4) {
+      console.log(messageArrays);
+    }
+  });
 };
+
+getMessage(newMessages);
 
 // const newX = newMessages.filter((messages) => messages.id !== 4);
 

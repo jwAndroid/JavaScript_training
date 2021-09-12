@@ -1,23 +1,24 @@
 const anmimal = (animals, action) => {
   const animalSound = {
-    강아지: (action) => {
-      console.log("멍멍멍" + action);
-      //키가 true일때 구현부
-      //action은 파라메터
+    dog: (action) => {
+      console.log(action);
     },
 
-    고양이: (action) => {
-      console.log("냥" + action);
+    cat: (action) => {
+      console.log(action);
     },
 
-    앵무새: (action) => {
-      console.log("ㅋ" + action);
+    parot: (action) => {
+      console.log(action);
     },
   };
-
   const key = animalSound[animals]; // 객체의 키
+  console.log(`키는? : ${key}`);
 
-  return key ? key(action) : console.log("...?");
+  return key ? key(action) : console.log('...?');
 };
 
-anmimal("강아지", " 나는 동물입니다.");
+const key = 'dog';
+const action = `동물은 ${key} 입니다.`;
+
+anmimal(key, action);
