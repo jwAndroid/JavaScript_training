@@ -18,3 +18,17 @@ const nextObj = objs.map((obj) =>
   obj.id === 1 ? { ...obj, nickname: '안녕하세요' } : obj
 );
 console.log(nextObj);
+
+const original = [
+  { id: 0, nickname: 'a' },
+  { id: 1, nickname: 'b' },
+  { id: 2, nickname: 'c' },
+];
+
+console.log(original);
+// 서버에서 이런 객체배열을 받았는데, 필요한 프로퍼티가 있어서 추가하고 싶을때 return 하여 하나하나 새로운 객체를 만들어준다.
+const nextOriginal = original.map((item) => {
+  return { ...item, toggle: true };
+});
+
+console.log(nextOriginal);
